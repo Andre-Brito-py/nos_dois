@@ -1,0 +1,19 @@
+{
+  "name": "nos-dois",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jogos para casal — app Android 100% local",
+  "scripts": {
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "apk": "cap sync android && cd android && set JAVA_HOME=C:\\dev\\jdk21&& .\\gradlew.bat assembleDebug && copy /Y app\\build\\outputs\\apk\\debug\\app-debug.apk C:\\dev\\NosDois.apk"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/core": "^7.6.9"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.6.9"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "com.andre.nosdois",
+  "appName": "Nós Dois",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#160d1c"
+  }
+}
